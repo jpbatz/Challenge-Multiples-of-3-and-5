@@ -26,9 +26,16 @@ jasmine-node --autotest .
 use mocha chai
 ````
 npm install mocha -g
-npm install chai
+npm install chai        // install in project dir!
 ````
+
+npm init                // accept defaults
+
+npm install -D chai
+
+edit test file
+
 run automated tests by running  
 ````
-mocha -w
+mocha -w spec           // no need to terminate and restart mocha every time test file is saved  
 ````
